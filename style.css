@@ -6,7 +6,7 @@
         }
 
         :root{
-            --primary-color: #f574ee;
+            --primary-color: #d47bd0;
             --secondary-color: #000080; 
             --text-color: #000080;
             --background-color: rgb(0, 0, 0);
@@ -270,11 +270,11 @@
 
             .video-container{
                 width: 100%;
-                height: 196px;
+                height: 396px;
             }
             .fa-arrows-rotate{
                 font-size: 240px;
-                top: 140px;
+                top: 125px;
             }
             .container {
                 max-width: 599px;
@@ -323,6 +323,14 @@
         @media (max-width: 480px) {
             .container {
                 padding-top: 20px;
+            }
+            .video-container{
+                width: 100%;
+                height: 240px;
+            }
+            .fa-arrows-rotate{
+                font-size: 240px;
+                top: 140px;
             }
 
             .section {
